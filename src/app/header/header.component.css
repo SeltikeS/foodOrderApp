@@ -1,7 +1,7 @@
 header {
   background-color: white;
   padding: 0;
-  border: 1px solid #e72929;
+  border-bottom: 2px solid #e72929;
 }
 a {
   color: #af1313;
@@ -12,14 +12,16 @@ a:hover {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
+  min-width: 100%;
 }
 
 a.logo {
   font-weight: bold;
-  padding: 1em;
+  padding: 1rem;
 }
 nav ul {
   list-style-type: none;
